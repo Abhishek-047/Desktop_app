@@ -8,3 +8,4 @@ release/Athena*.blockmap
 .DS_Store
 *.log
 app/user-camera-snap/
+image.png
