@@ -1,0 +1,10 @@
+node_modules/
+backend/node_modules/
+dist/
+release/mac-arm64/
+release/builder-effective-config.yaml
+release/builder-debug.yml
+release/Athena*.blockmap
+.DS_Store
+*.log
+app/user-camera-snap/
