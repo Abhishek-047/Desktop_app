@@ -4,23 +4,27 @@ An Electron + React desktop application for conducting proctored online exams wi
 
 ---
 
-## 📦 Download Production Installer (.DMG)
+## 📥 Direct Download (.DMG Installer)
 
-The pre-built, production macOS installer is located directly inside the repository at:
+Click the link or button below to download the compiled macOS installer immediately:
 
-```text
-release/Athena-0.0.0-arm64.dmg
-```
+[![Download Athena DMG](https://img.shields.io/badge/⬇️_Download_Athena-macOS_(Apple_Silicon_arm64)-blue?style=for-the-badge&logo=apple)](https://github.com/Abhishek-047/Desktop_app/raw/main/release/Athena-0.0.0-arm64.dmg)
 
-### Installation Steps:
-1. Double-click `release/Athena-0.0.0-arm64.dmg`.
-2. Drag **Athena** into your `/Applications` folder.
-3. Open **Athena** from Launchpad or Applications. (The embedded Express backend will auto-launch internally on port `3000` with zero configuration needed).
+👉 **[Click here to download `Athena-0.0.0-arm64.dmg` directly](https://github.com/Abhishek-047/Desktop_app/raw/main/release/Athena-0.0.0-arm64.dmg)**
 
-> **Note on DMG Size:**
-> Any standalone Electron macOS app packages the full Chromium rendering engine and Node.js framework inside its binary (`Electron Framework.framework` is **285 MB** uncompressed). Even with maximum LZMA disk compression, an Electron `.dmg` physically measures **~120 MB**. To make cloning fast and avoid repository limits, this DMG is tracked and served through **Git LFS**.
->
-> *(If an ultra-lightweight `<50MB` binary is strictly required in the future, the desktop shell can be ported to **Tauri / Wry**, which uses the macOS native WebKit library instead of bundling Chromium).*
+*(File located in repository at [`release/Athena-0.0.0-arm64.dmg`](release/Athena-0.0.0-arm64.dmg))*
+
+---
+
+### 🚀 How to Install & Run:
+1. Click the download link above to download `Athena-0.0.0-arm64.dmg`.
+2. Double-click the downloaded `.dmg` file to mount it.
+3. Drag **Athena** into your **Applications** folder.
+4. Launch **Athena** from Launchpad or Applications.
+   - *Everything is fully integrated:* The assessment backend auto-starts internally on port `3000` with zero configuration needed.
+
+> **💡 Note on Package Size:**
+> Like all standalone Electron desktop apps (e.g. VS Code, Slack, Notion), the `.dmg` bundles the local Chromium execution runtime and Node.js core so that the app runs independently offline without requiring any dependencies or browsers pre-installed.
 
 ---
 
